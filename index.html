@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Three.js Website</title>
+  </head>
+  <body>
+
+    <canvas id="bg"></canvas>   
+
+    <main>
+
+      <header>
+        <h1>Welcome!</h1>
+        <p>This is Three.js in action.
+        </p>
+        <p>(desktop version only)</p>
+      </header>
+
+
+      <blockquote>
+        <p>Scroll up and down.</p>
+      </blockquote>
+
+      <section>
+        <h2>What makes Three.js?</h2>
+        <p>
+         Scene, camera and finally the renderer make this magic happen.
+         
+        
+        </p>
+
+        <p>
+            1. SCENE
+           is like a container that holds all objects, cameras and lights.
+        </p>
+        <p>
+          2. CAMERA <br>
+
+          
+          <p>3. RENDERER (makes the magic happen :)</p>
+          <br>
+        </p>
+
+      </section>
+
+      <section class="light">
+        <h2>Do you want to know more?</h2>
+
+        <p>
+          Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL.        </p>
+
+        <h2>Fundamentals</h2>
+
+        <p>
+          Three.js is a 3D library that tries to make it as easy as possible to get 3D content on a webpage.
+<br>
+          Three.js is often confused with WebGL since more often than not, but not always, three.js uses WebGL to draw 3D. WebGL is a very low-level system that only draws points, lines, and triangles. To do anything useful with WebGL generally requires quite a bit of code and that is where three.js comes in. It handles stuff like scenes, lights, shadows, materials, textures, 3d math, all things that you'd have to write yourself if you were to use WebGL directly.
+        </p>
+
+      </section>
+
+      <blockquote>
+        <p>Creativity Is Intelligence Having Fun.<br>--Albert Einstein</p>
+      </blockquote>
+
+      <section class="left">
+        <h2>How to use camera?</h2>
+
+        <h3>This page uses perspective camera.</h3>
+        <p>
+          <br> Using constructor: <br>
+          PerspectiveCamera ( fov : Number, aspect : Number, near : Number, far : Number )
+          <br>
+          const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+          <br>
+          fov — Camera frustum vertical Field Of View.
+          <br>
+          aspect — Camera frustum aspect ratio. Aspect ratio, usually the canvas width / canvas height. Default is 1 (square canvas).
+          <br>
+          <p>
+          near — Camera frustum near plane. (default: 0.1)
+          far — Camera frustum far plane. (default: 2000) <br>
+          Last two control which objects (are visible relative to the camera itself (view frustrum), by setting to 0.1, 1000 we can see all.
+          </p>          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <h3>Lorem ipsum</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <h3>Lorem Ipsum</h3>
+
+
+      </section>
+
+      <blockquote>
+        <p>Thanks for reading.</p>
+      </blockquote>
+
+
+    </main>
+    
+    <script type="module" src="/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
