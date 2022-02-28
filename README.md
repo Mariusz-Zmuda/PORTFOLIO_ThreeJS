@@ -1,6 +1,6 @@
 # Animation with Three.js
 
-Vite /vit/ 2.3.2 was used to build this project (see .json file).
+Vite /vit/ 2.3.2 was used to build this project (see package.json file).
 
 ## Installation
 
@@ -12,4 +12,4 @@ Install the dependencies and devDependencies and start the server (http://localh
 git clone <this-repo>
 npm install
 npm run dev
-
+```
