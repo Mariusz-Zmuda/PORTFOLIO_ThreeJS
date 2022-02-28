@@ -1,12 +1,15 @@
-# Scrollable 3D Animation with Three.js
+# Animation with Three.js
 
-- Watch the [full tutorial](https://youtu.be/Q7AOvWpIVHU) on YouTube
-- [Scrollable Three.js Animation](https://fireship.io/snippets/threejs-scrollbar-animation) Snippet
+Vite /vit/ 2.3.2 was used to build this project (see .json file).
 
-## Usage
+## Installation
 
-```
+Three requires [Node.js](https://nodejs.org/) to run.
+
+Install the dependencies and devDependencies and start the server (http://localhost:3000/).
+
+```sh
 git clone <this-repo>
 npm install
 npm run dev
-```# PORTFOLIO_ThreeJS
+
